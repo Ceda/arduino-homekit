@@ -8,7 +8,7 @@
 #endif
 
 const char* ssid = "";
-const char* password = "";
+const char* password = "+";
 
 void wifi_connect() {
     WiFi.persistent(false);
